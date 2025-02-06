@@ -187,8 +187,25 @@ ul li ul li {
 /*
  * Copy code button
  */
+.language-html,
+.language-js {
+  margin-block-end: var(--gcds-spacing-300) !important;
+}
+
+.code-copy {
+  top: 1em !important;
+  right: 1em !important;
+  background-color: #2b2b2b;
+}
+.code-copy span {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  filter: invert(1) brightness(2);
+}
+
 .code-copy-button {
-  --gcds-button-secondary-default-text: white;
+  --gcds-button-secondary-default-text: var(--gcds-text-light);
+  --gcds-button-small-padding: var(--gcds-spacing-100) var(--gcds-spacing-125);
   width: fit-content;
 }
 

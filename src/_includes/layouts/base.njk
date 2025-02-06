@@ -60,6 +60,10 @@
 
     </div>
 
+    {% if script %}
+      <script src="{{ script | url }}"></script>
+    {% endif %}
+
     {% initClipboardJS %}
   </body>
 </html>

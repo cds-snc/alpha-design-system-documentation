@@ -6,7 +6,7 @@
   {% set navPages = collections.all | eleventyNavigation(components) %}
 {% endif %}
 
-{% if (cardlist.type === 'components' or cardlist.type === 'foundations') and cardlist.state === 'published' %}
+{% if (cardlist.type === 'components' or cardlist.type === 'foundations' or cardlist.type === 'installation') and cardlist.state === 'published' %}
   <div class="my-600">
     <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr 1fr">
     {%- for entry in navPages %}

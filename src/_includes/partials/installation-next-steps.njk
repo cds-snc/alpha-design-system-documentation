@@ -1,0 +1,9 @@
+<gcds-heading tag="h2">{{ installation-next-steps[locale].heading }}</gcds-heading>
+
+{% for value in installation-next-steps[locale].paragraphs %}
+  <gcds-text>{{ value }}</gcds-text>
+{% endfor %}
+
+<gcds-button type="link" href="{{ installation-next-steps[locale].link }}">
+  {{ installation-next-steps[locale].buttonText }}
+</gcds-button>
