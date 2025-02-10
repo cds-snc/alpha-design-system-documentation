@@ -49,7 +49,7 @@
     "cypress-html-validate": "^7.0.0",
     "eleventy-plugin-svg-contents": "^0.7.0",
     "node-fetch": "^3.3.2",
-    "pagefind": "^1.0.4",
+    "pagefind": "^1.1.1",
     "prettier": "3.4.2",
     "prompt-sync": "^4.2.0",
     "replace-in-file": "^7.0.0",
