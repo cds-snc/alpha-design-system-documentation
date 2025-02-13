@@ -374,7 +374,7 @@ module.exports = function (eleventyConfig) {
                   ${
                     locale === 'en'
                       ? `${prnDt}, ${convertTime(date.starttime)} – ${convertTime(date.endtime)} ${langStrings[locale].timezone}`
-                      : `${prnDt}, de ${date.starttime.replace(':', 'h')} à ${date.endtime.replace(':', 'h')} ${langStrings[locale].timezone}`
+                      : `${prnDt}, de ${date.starttime.replace(':', ' h ')} à ${date.endtime.replace(':', ' h ')} ${langStrings[locale].timezone}`
                   }
                 </time>`;
 
