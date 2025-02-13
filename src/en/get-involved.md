@@ -58,34 +58,9 @@ Provide any of the following for each component or pattern:
 ### Upcoming components and templates
 
 <div>
-  <gcds-heading tag="h4" margin-bottom="0">Notice</gcds-heading>
-  <ul class="mb-300">
-    <li>The notice is a short prominent message to draw attention and inform.</li>
-    <li><strong>Expected release:</strong> Fall 2024</li>
-  </ul>
-</div>
-
-<div>
   <gcds-heading tag="h4" margin-bottom="0">Topic Page Template</gcds-heading>
   <ul class="mb-300">
     <li>The Topic Page Template is a reusable layout for pages that provide access to topics and destination pages that support task completion.</li>
-    <li><strong>Expected release:</strong> Fall 2024</li>
-  </ul>
-</div>
-
-<div>
-  <gcds-heading tag="h4" margin-bottom="0">Ministerial Page Template</gcds-heading>
-  <ul class="mb-300">
-    <li>The Ministerial Page Template is a reusable layout for landing pages for ministers, parliamentary secretaries and heads of quasi-judicial organizations.</li>
-    <li><strong>Expected release:</strong> Fall 2024</li>
-  </ul>
-</div>
-
-<div>
-  <gcds-heading tag="h4" margin-bottom="0">VueJS Starter App Template</gcds-heading>
-  <ul class="mb-300">
-    <li>The VueJS Start App Template provides the starting code to develop an application using the VueJS front-end framework.</li>
-    <li><strong>Expected release:</strong> Fall 2024</li>
   </ul>
 </div>
 
