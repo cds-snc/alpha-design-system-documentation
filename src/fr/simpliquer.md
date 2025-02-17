@@ -13,78 +13,77 @@ templateEngineOverride: njk,md
 
 # S'impliquer
 
-Un système de design ne connaît jamais de fin. Nous sommes déterminés à développer Système de design GC avec les personnes qui utilisent nos produits.
+Un système de design ne connaît jamais de fin. Nous nous engageons à construire avec les personnes qui utilisent nos produits. Voici nos travaux en cours et ceux qui s’en viennent.
 
-À l'heure actuelle, nous testons le système en alpha, la première phase utilisable d'un produit. Nous y apportons des itérations en fonction de vos besoins et de ceux des personnes que vous servez.
+Nous testons actuellement la version alpha de Système de design GC, ce qui correspond à la première version utilisable d’un produit. Nous faisons évoluer cette version en fonction des besoins courants au sein du GC et de ceux des gens que nous servons tous et toutes.
 
-## Découvrez ce que nous préparons
+## Découvrez Système de design GC
 
-Nous faisons savoir quels sont nos travaux en cours et quels sont ceux qui s'en viennent. Pour obtenir des mises à jour sur Système de design GC, inscrivez-vous à notre liste d'envoi en utilisant notre [formulaire de contact]({{ links.contact }}).
+<div class="d-grid lg:grid-cols-3 mb-400 gap-400">
+  <gcds-card
+    card-title="Recevez nos communications"
+    href="{{ links.contact }}"
+    description="Abonnez-vous à notre infolettre pour manquer aucune communication de Système de design GC concernant les mises à jour, les lancements ou encore les évènements spéciaux."
+  ></gcds-card>
+  <gcds-card
+    card-title="Participez à une demo"
+    href="{{ links.registerDemo }}"
+    description="Assistez à une présentation du prototypage et du développement d’expériences Web à l’aide du système de design et participez à une séance de questions-réponses."
+  ></gcds-card>
+</div>
 
 <hr/>
 
-<gcds-heading tag="h2" margin-top="225">Comment s'impliquer</gcds-heading>
+<gcds-heading tag="h2" margin-top="225">Contribuez à nos prochaines priorités</gcds-heading>
 
-### Contribuez à nos prochaines priorités
+Vous pouvez contribuer à l’avenir de Système de design GC. Nous recherchons activement des contributions pour les éléments suivants.
 
 <div>
-  <gcds-heading tag="h4" margin-bottom="0">Tableau de données</gcds-heading>
   <ul class="mb-300">
-    <li>Les tableaux de données sont un moyen d'organiser et d'afficher de grandes quantités de données en lignes et en colonnes.</li>
+    <li>**Des tableaux de données** pour organiser et afficher une grande quantité de données dans des rangées et des colonnes.</li>
+    <li>**Des balises** pour étiqueter, catégoriser et organiser des éléments à l’aide de mots-clés descriptifs. </li>
   </ul>
 </div>
 
-<div>
-  <gcds-heading tag="h4" margin-bottom="0">Étiquette</gcds-heading>
-  <ul class="mb-300">
-    <li>L'etiquette est un composant utilisé pour des éléments qui doivent être étiquetés, catégorisés ou organisés à l'aide de mots-clés qui les décrivent.</li>
-  </ul>
-</div>
+Nous nous intéressons également aux problèmes concernant les interactions avec les utilisateurs et utilisatrice ou aux solutions qui peuvent s’appliquer aux différents services du GC.
 
-Soumettez vos contributions à nos prochaines priorités directement dans GitHub. Si c’est la première fois que vous utilisez GitHub, suivez ces <gcds-link href="{{ links.githubGetStarted }}" external>instructions</gcds-link> pour créer votre compte.
+Soumettez vos contributions à nos prochaines priorités directement dans GitHub, en créant <gcds-link href="{{ links.githubGetStarted }}" external>créant un compte</gcds-link>.
 
-Fournissez l'un des éléments suivants pour chaque composant ou bloc réutilisable :
+Fournissez l'un des éléments suivants pour chaque composant ou modèle de page :
 
 - **Exemples de designs** : captures d'écran, prototypes, liens vers des services en ligne.
 - **Résultats de recherche** : recherches préliminaires, exemples de cas d'utilisation ou tests d'utilisabilité.
 - **Code** : code de prototype ou de production, ou implémentations du produit.
 
-<gcds-link href="{{ links.githubCompsPriority }}" external>Contribuer à nos prochaines priorités</gcds-link>
+<gcds-button button-role="secondary" button-type="link" href="{{ links.githubCompsPriority }}" external>Contribuer sur GitHub</gcds-button>
+<gcds-button button-role="secondary" button-type="link" href="{{ links.contact }}" external>Contactez-nous</gcds-button>
 
 <hr/>
 
-<gcds-heading tag="h2" margin-top="225">À venir</gcds-heading>
+<gcds-heading tag="h2" margin-top="225">Autres nouveautés à venir</gcds-heading>
 
-### Composants et modèles à venir
+Voici ce que nous allons bientôt publier. Plus de renseignements sur notre <gcds-link href="{{ links.roadmap }}" >feuille de route</gcds-link>.
 
 <div>
-  <gcds-heading tag="h4" margin-bottom="0">Avis</gcds-heading>
+  <gcds-heading tag="h3" margin-bottom="0">Mise à jour à l'en-tête</gcds-heading>
   <ul class="mb-300">
-    <li>L’avis est un message court et visible destiné à attirer l’attention et à informer.</li>
+    <li>Nous apportons des mises à jour au composant « En-tête » pour l’harmoniser avec l’en-tête général de Canada.ca.</li>
     <li><strong>Sortie prévue :</strong> automne 2024</li>
   </ul>
 </div>
 
 <div>
-  <gcds-heading tag="h4" margin-bottom="0">Modèle de page de sujet</gcds-heading>
+  <gcds-heading tag="h3" margin-bottom="0">Mise à jour au pied de page</gcds-heading>
   <ul class="mb-300">
-    <li>Le modèle de page de sujet est un modèle réutilisable pour les pages qui donnent accès à des sujets et à des pages de destination permettant l’achèvement d’une tâche.</li>
+    <li>Nous apportons des mises à jour au composant « Pied de page » pour l’harmoniser avec le pied de page général de Canada.ca.</li>
     <li><strong>Sortie prévue :</strong> automne 2024</li>
   </ul>
 </div>
 
 <div>
-  <gcds-heading tag="h4" margin-bottom="0">Modèle de page ministérielle</gcds-heading>
+  <gcds-heading tag="h4" margin-bottom="0">Mise à jour au bouton</gcds-heading>
   <ul class="mb-300">
-    <li>Le modèle de page ministérielle est un modèle réutilisable pour les pages de destination des ministres, des secrétaires parlementaires et des responsables d’organismes quasi judiciaires.</li>
-    <li><strong>Sortie prévue :</strong> automne 2024</li>
-  </ul>
-</div>
-
-<div>
-  <gcds-heading tag="h4" margin-bottom="0">Modèle d’application de départ VueJS</gcds-heading>
-  <ul class="mb-300">
-    <li>Le modèle d’application de départ VueJS fournit le code de base pour développer une application à l’aide du cadriciel front-end VueJS.</li>
+    <li>Nous apportons des modifications au composant « Bouton » afin d’ajouter un nouveau rôle et une nouvelle taille de bouton. </li>
     <li><strong>Sortie prévue :</strong> automne 2024</li>
   </ul>
 </div>
