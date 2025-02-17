@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "@cdssnc/gcds-components": "^0.30.0",
+    "@cdssnc/gcds-components": "^0.31.0",
     "@cdssnc/gcds-tokens": "^2.0.3",
     "@cdssnc/gcds-utility": "^1.5.0",
     "@quasibit/eleventy-plugin-sitemap": "^2.1.4",
